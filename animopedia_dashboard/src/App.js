@@ -7,123 +7,129 @@ import { MenuIcon, SearchIcon, ShoppingBagIcon, XIcon } from '@heroicons/react/o
 const navigation = {
   categories: [
     {
-      id: 'women',
-      name: 'Women',
+      id: 'dog',
+      name: 'Dog',
       featured: [
         {
-          name: 'New Arrivals',
+          name: 'Best Breeds',
           href: '#',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
           imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
         },
+      ],
+      sections: [
         {
-          name: 'Basic Tees',
+          id: 'dog',
+          name: 'Dog',
+          items: [            
+            { name: 'Breeds', href: '#' },
+            { name: 'Skin Care', href: '#' },
+            { name: 'Vaccinations', href: '#' },
+            { name: 'Moderators', href: '#' },
+            { name: 'Activities', href: '#' },
+          ],
+        },
+      ],
+      
+
+        // {
+        //   id: 'accessories',
+        //   name: 'Accessories',
+        //   items: [
+        //     { name: 'Watches', href: '#' },
+        //     { name: 'Wallets', href: '#' },
+        //     { name: 'Bags', href: '#' },
+        //     { name: 'Sunglasses', href: '#' },
+        //     { name: 'Hats', href: '#' },
+        //     { name: 'Belts', href: '#' },
+        //   ],
+        // },
+        // {
+        //   id: 'brands',
+        //   name: 'Brands',
+        //   items: [
+        //     { name: 'Full Nelson', href: '#' },
+        //     { name: 'My Way', href: '#' },
+        //     { name: 'Re-Arranged', href: '#' },
+        //     { name: 'Counterfeit', href: '#' },
+        //     { name: 'Significant Other', href: '#' },
+        //   ],
+        // },
+      
+    },
+    {
+      id: 'fish',
+      name: 'Fish',
+      featured: [
+        {
+          name: 'Best Breeds',
           href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
-          imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
+          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
+          imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
         },
       ],
       sections: [
         {
-          id: 'clothing',
-          name: 'Clothing',
-          items: [
-            { name: 'Tops', href: '#' },
-            { name: 'Dresses', href: '#' },
-            { name: 'Pants', href: '#' },
-            { name: 'Denim', href: '#' },
-            { name: 'Sweaters', href: '#' },
-            { name: 'T-Shirts', href: '#' },
-            { name: 'Jackets', href: '#' },
-            { name: 'Activewear', href: '#' },
-            { name: 'Browse All', href: '#' },
-          ],
-        },
-        {
-          id: 'accessories',
-          name: 'Accessories',
-          items: [
-            { name: 'Watches', href: '#' },
-            { name: 'Wallets', href: '#' },
-            { name: 'Bags', href: '#' },
-            { name: 'Sunglasses', href: '#' },
-            { name: 'Hats', href: '#' },
-            { name: 'Belts', href: '#' },
-          ],
-        },
-        {
-          id: 'brands',
-          name: 'Brands',
-          items: [
-            { name: 'Full Nelson', href: '#' },
-            { name: 'My Way', href: '#' },
-            { name: 'Re-Arranged', href: '#' },
-            { name: 'Counterfeit', href: '#' },
-            { name: 'Significant Other', href: '#' },
+          id: 'fish',
+          name: 'Fish',
+          items: [            
+            { name: 'Breeds', href: '#' },
+            { name: 'Skin Care', href: '#' },
+            { name: 'Vaccinations', href: '#' },
+            { name: 'Moderators', href: '#' },
+            { name: 'Activities', href: '#' },
           ],
         },
       ],
     },
     {
-      id: 'men',
-      name: 'Men',
+      id: 'food',
+      name: 'Food',
       featured: [
         {
-          name: 'New Arrivals',
+          name: 'Best Breeds',
           href: '#',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg',
           imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
         },
-        {
-          name: 'Artwork Tees',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-06.jpg',
-          imageAlt:
-            'Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.',
-        },
       ],
       sections: [
         {
-          id: 'clothing',
-          name: 'Clothing',
+          id: 'food',
+          name: 'Food',
           items: [
-            { name: 'Tops', href: '#' },
-            { name: 'Pants', href: '#' },
-            { name: 'Sweaters', href: '#' },
-            { name: 'T-Shirts', href: '#' },
-            { name: 'Jackets', href: '#' },
-            { name: 'Activewear', href: '#' },
-            { name: 'Browse All', href: '#' },
+            { name: 'Fish Food', href: '#' },
+            { name: 'Dog Food', href: '#' },
           ],
         },
-        {
-          id: 'accessories',
-          name: 'Accessories',
-          items: [
-            { name: 'Watches', href: '#' },
-            { name: 'Wallets', href: '#' },
-            { name: 'Bags', href: '#' },
-            { name: 'Sunglasses', href: '#' },
-            { name: 'Hats', href: '#' },
-            { name: 'Belts', href: '#' },
-          ],
-        },
-        {
-          id: 'brands',
-          name: 'Brands',
-          items: [
-            { name: 'Re-Arranged', href: '#' },
-            { name: 'Counterfeit', href: '#' },
-            { name: 'Full Nelson', href: '#' },
-            { name: 'My Way', href: '#' },
-          ],
-        },
+        // {
+        //   id: 'accessories',
+        //   name: 'Accessories',
+        //   items: [
+        //     { name: 'Watches', href: '#' },
+        //     { name: 'Wallets', href: '#' },
+        //     { name: 'Bags', href: '#' },
+        //     { name: 'Sunglasses', href: '#' },
+        //     { name: 'Hats', href: '#' },
+        //     { name: 'Belts', href: '#' },
+        //   ],
+        // },
+        // {
+        //   id: 'brands',
+        //   name: 'Brands',
+        //   items: [
+        //     { name: 'Re-Arranged', href: '#' },
+        //     { name: 'Counterfeit', href: '#' },
+        //     { name: 'Full Nelson', href: '#' },
+        //     { name: 'My Way', href: '#' },
+        //   ],
+        // },
       ],
     },
   ],
   pages: [
-    { name: 'Company', href: '#' },
-    { name: 'Stores', href: '#' },
+    { name: 'Insert', href: '#' },
+    { name: 'Update', href: '#' },
   ],
 }
 
@@ -274,10 +280,10 @@ export default function App() {
         </Dialog>
       </Transition.Root>
 
-      <header className="relative bg-white">
-        <p className="bg-indigo-600 h-10 flex items-center justify-center text-sm font-medium text-white px-4 sm:px-6 lg:px-8">
+      <header className="relative bg-teal-300">
+        {/* <p className="bg-indigo-600 h-10 flex items-center justify-center text-sm font-medium text-white px-4 sm:px-6 lg:px-8">
           Get free delivery on orders over $100
-        </p>
+        </p> */}
 
         <nav aria-label="Top" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="border-b border-gray-200">
@@ -297,7 +303,7 @@ export default function App() {
                   <span className="sr-only">Workflow</span>
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
+                    src="https://st2.depositphotos.com/1799371/7138/v/600/depositphotos_71389329-stock-illustration-vector-image-of-an-dog.jpg"
                     alt=""
                   />
                 </a>
@@ -314,8 +320,8 @@ export default function App() {
                             <Popover.Button
                               className={classNames(
                                 open
-                                  ? 'border-indigo-600 text-indigo-600'
-                                  : 'border-transparent text-gray-700 hover:text-gray-800',
+                                  ? 'border-yellow-900 text-yellow-700'
+                                  : 'border-transparent text-gray-700 hover:text-gray-900',
                                 'relative z-10 flex items-center transition-colors ease-out duration-200 text-sm font-medium border-b-2 -mb-px pt-px'
                               )}
                             >
@@ -404,7 +410,7 @@ export default function App() {
               </Popover.Group>
 
               <div className="ml-auto flex items-center">
-                <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
+                {/* <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
                   <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-800">
                     Sign in
                   </a>
@@ -412,9 +418,9 @@ export default function App() {
                   <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-800">
                     Create account
                   </a>
-                </div>
+                </div> */}
 
-                <div className="hidden lg:ml-8 lg:flex">
+                {/* <div className="hidden lg:ml-8 lg:flex">
                   <a href="#" className="text-gray-700 hover:text-gray-800 flex items-center">
                     <img
                       src="https://tailwindui.com/img/flags/flag-canada.svg"
@@ -424,7 +430,7 @@ export default function App() {
                     <span className="ml-3 block text-sm font-medium">CAD</span>
                     <span className="sr-only">, change currency</span>
                   </a>
-                </div>
+                </div> */}
 
                 {/* Search */}
                 <div className="flex lg:ml-6">
@@ -435,7 +441,7 @@ export default function App() {
                 </div>
 
                 {/* Cart */}
-                <div className="ml-4 flow-root lg:ml-6">
+                {/* <div className="ml-4 flow-root lg:ml-6">
                   <a href="#" className="group -m-2 p-2 flex items-center">
                     <ShoppingBagIcon
                       className="flex-shrink-0 h-6 w-6 text-gray-400 group-hover:text-gray-500"
@@ -444,7 +450,7 @@ export default function App() {
                     <span className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800">0</span>
                     <span className="sr-only">items in cart, view bag</span>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
