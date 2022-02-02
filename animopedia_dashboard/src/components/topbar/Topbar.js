@@ -21,15 +21,15 @@ export default function Topbar() {
                     </button>
 
                     {/* Logo */}
-                    <div className="ml-4 flex lg:ml-0">
+                    <div className="ml-0 flex">
                         <a href="#">
-                            <span className="sr-only">Workflow</span>
+                            <span className="sr-only">Animopedia</span>
                             <PetsRoundedIcon>Animopedia</PetsRoundedIcon>
                         </a>
                     </div>
-                    <div className='flex mr-4 lg:mr-0 mb-2 cursor-pointer'>
-                        <img className='h-8 w-auto rounded-full mr-3'
-                            src='https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'>
+                    <div className='flex mr-2 lg:mr-2 mb-2 cursor-pointer rounded-full'>
+                        <img className='h-8 w-8 rounded-full mr-2'
+                            src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCDQHuV1KMSc0PfPpmq4XR0DlBQzQoS0AuQ&usqp=CAU'>
                         </img>
                         <SettingsOutlinedIcon />
                     </div>

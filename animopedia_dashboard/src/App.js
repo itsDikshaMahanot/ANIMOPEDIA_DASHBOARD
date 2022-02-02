@@ -1,27 +1,14 @@
 import React from 'react';
 import Topbar from './components/topbar/Topbar';
 import Sidebar from './components/sidebar/Sidebar';
+import Home from './pages/home/Home';
 
 export default function App() {
   return <div>
     <Topbar />
-    <div className='relative h-[calc(100vh_-_70px)] flex'>
+    <div className='h-[calc(100vh_-_65px)] flex sticky top-50px'>
       <Sidebar />
-      <div className='block lg:flex-1 font-semibold px-4 bg-blue-100 z-50'>
-        other pages
-        other pages <br />
-        other pages
-        other pages
-        other pages
-        other pages
-        other pages
-        other pages
-        other pages
-        other pages
-        other pages
-        other pages
-        other pages
-      </div>
+      <Home />
     </div>
 
   </div>;
