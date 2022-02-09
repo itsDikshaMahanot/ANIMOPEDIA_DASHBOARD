@@ -8,8 +8,8 @@ import { MenuIcon, SearchIcon, ShoppingBagIcon, XIcon } from '@heroicons/react/o
 export default function Topbar() {
     const [open, setOpen] = useState(false)
     return (
-        <nav aria-label="Top" className="bg-blue-100 max-w-full mx-auto px-4 sm:px-6 lg:px-8 sticky top-0 z-999">
-            <div className="border-b border-gray-200 ">
+        <nav aria-label="Top" className="bg-gray-100 max-w-full mx-auto px-4 sm:px-6 lg:px-8 sticky top-0 z-999">
+            <div className="border-black ">
                 <div className="h-16 flex justify-between pt-5 ">
                     <button
                         type="button"
