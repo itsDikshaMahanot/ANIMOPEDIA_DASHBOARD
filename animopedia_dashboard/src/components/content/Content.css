@@ -7,7 +7,8 @@ img {
 }
 
 .content-main {
-    /* background: url() center center/cover no-repeat; */
+    background: url(https://media.istockphoto.com/vectors/rodent-pet-seamless-wallpaper-3-vector-id685014570?k=20&m=685014570&s=170667a&w=0&h=BSS1ZLV66OgwuY8mY4fStq8Qkqrzqd_Vp4kgJY6aB_U=) center center/cover no-repeat;
+    opacity: 1;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -15,5 +16,9 @@ img {
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+
 
 }

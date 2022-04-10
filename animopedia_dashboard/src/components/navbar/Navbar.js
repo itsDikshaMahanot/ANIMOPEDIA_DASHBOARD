@@ -4,6 +4,7 @@ import React, { useState , useEffect } from 'react';
 import {ButtonComponent} from '../button/Button'
 import './Navbar.css'
 import PetsOutlined from '@mui/icons-material/PetsOutlined';
+import '../../App.css';
 
 
 
@@ -49,17 +50,17 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/dog' className='nav-links' onClick={closeMobileMenu}>
                                 Dog
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/fish' className='nav-links' onClick={closeMobileMenu}>
                                 Fish
                             </Link>
                         </li>
                         <li>
-                            <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <Link to='/faq' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 FAQ
                             </Link>
                         </li>

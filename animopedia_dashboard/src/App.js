@@ -17,8 +17,10 @@ export default function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact component={Home} />
+        <Route exact path="/" element={<Home />} />
+        
         </Routes>
+        {/* <Home/> */}
       </Router>
     </>
 
