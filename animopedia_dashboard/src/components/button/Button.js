@@ -8,7 +8,7 @@ const STYLES = ['btn--primary', 'btn--outline'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
-export const ButtonComponent = ({ children, type, onClick, buttonstyle, buttonsize, text }) => {
+export const ButtonComponent = ({ type, onClick, buttonstyle, buttonsize, text }) => {
     const checkButtonstyle = STYLES.includes(buttonstyle) ? buttonstyle : STYLES[0];
     const checkButtonsize = SIZES.includes(buttonsize) ? buttonsize : SIZES[0];
     console.log(checkButtonstyle)
