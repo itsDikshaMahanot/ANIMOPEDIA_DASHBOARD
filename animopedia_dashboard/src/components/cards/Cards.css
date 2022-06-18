@@ -68,10 +68,10 @@
     margin-left: 10px;
     padding: 6px 8px;
     max-width: calc((100%) - 60px);
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
-    color: crimson;
-    background-color: #c3e0f6;
+    color: black;
+    background-color: dodgerblue;
     box-sizing: border-box;
   }
   

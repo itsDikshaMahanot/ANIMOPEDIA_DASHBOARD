@@ -4,24 +4,22 @@ import Sidebar from './components/sidebar/Sidebar';
 import Home from './pages/home/Home';
 import Navbar from './components/navbar/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './components/login/Login';
 
 
 export default function App() {
   return <div>
-    {/* <Topbar />
-    <div className='flex relative overflow-hidden sm:h-[calc(100vh_-_65px)] lg:h-[calc(100vh_-_65px)]  '>
-      <Sidebar />
-      <Home />
-    </div> */}
     <>
-      <Router>
+    <Login />
+      {/* <Router>
+        <Sidebar />
         <Navbar />
         <Routes>
-        <Route exact path="/" element={<Home />} />
-        
+          <Route exact path="/" element={<Home />} />
+
         </Routes>
-        {/* <Home/> */}
-      </Router>
+        <Home/>
+      </Router> */}
     </>
 
 

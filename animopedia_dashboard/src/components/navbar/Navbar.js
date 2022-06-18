@@ -58,6 +58,11 @@ function Navbar() {
                                 Fish
                             </Link>
                         </li>
+                        <li className='nav-item'>
+                            <Link to='/bird' className='nav-links' onClick={closeMobileMenu}>
+                                Bird
+                            </Link>
+                        </li>
                         <li>
                             <Link to='/faq' className='nav-links-mobile' onClick={closeMobileMenu}>
                                 FAQ

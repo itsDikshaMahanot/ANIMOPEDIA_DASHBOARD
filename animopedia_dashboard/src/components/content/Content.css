@@ -7,7 +7,7 @@ img {
 }
 
 .content-main {
-    background: url(https://i.pinimg.com/originals/3c/33/a8/3c33a88c60c3113810e6f75ffe92d1e1.gif) center center/cover no-repeat;
+    /* background: url(https://i.pinimg.com/originals/3c/33/a8/3c33a88c60c3113810e6f75ffe92d1e1.gif) center center/cover no-repeat; */
     opacity: 1;
     height: 100vh;
     width: 100%;
@@ -67,7 +67,7 @@ img {
         width: 100%;
     }
     .content-main {
-        background: url(https://i.pinimg.com/originals/3c/33/a8/3c33a88c60c3113810e6f75ffe92d1e1.gif) center center/cover no-repeat;
+        /*  background: url(https://i.pinimg.com/originals/3c/33/a8/3c33a88c60c3113810e6f75ffe92d1e1.gif) center center/cover no-repeat; */
         opacity: 1;
         height: 100vh;
         width: 100%;
