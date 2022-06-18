@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import React, { useState , useEffect } from 'react';
-// import { Button } from '@mui/material';
 import {ButtonComponent} from '../button/Button'
 import './Navbar.css'
 import PetsOutlined from '@mui/icons-material/PetsOutlined';
@@ -36,7 +35,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className='navbar-container'>
-                    <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
+                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                         Animopedia
                         <span> < PetsOutlined className='peticon' /> </span>
                     </Link>

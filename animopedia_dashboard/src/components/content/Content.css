@@ -7,18 +7,77 @@ img {
 }
 
 .content-main {
-    background: url(https://media.istockphoto.com/vectors/rodent-pet-seamless-wallpaper-3-vector-id685014570?k=20&m=685014570&s=170667a&w=0&h=BSS1ZLV66OgwuY8mY4fStq8Qkqrzqd_Vp4kgJY6aB_U=) center center/cover no-repeat;
+    background: url(https://i.pinimg.com/originals/3c/33/a8/3c33a88c60c3113810e6f75ffe92d1e1.gif) center center/cover no-repeat;
     opacity: 1;
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'Times New Roman', Times, serif;
+}
 
+.content-main >h1 {
+    color: rebeccapurple;
+    margin-top: 220px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.content-main >p{
+    margin-top: 2px;
+    color: rebeccapurple;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content-btn {
+    margin-top: 32px;
+}
+
+.content-btn .btn{
+    margin: 6px;
+}
+
+@media screen and (max-width: 960px){
+    .content-main > h1 {
+        font-size: 50px;
+        margin-top: 10px;
+        font-family: fantasy;
+        color: chocolate;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-main > h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .content-main >p {
+        font-size: 25px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+    .content-main {
+        background: url(https://i.pinimg.com/originals/3c/33/a8/3c33a88c60c3113810e6f75ffe92d1e1.gif) center center/cover no-repeat;
+        opacity: 1;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+        object-fit: contain;
+    }
 
 }
+
